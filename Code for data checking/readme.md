@@ -1,6 +1,8 @@
 1. Overview
+
 This toolkit contains 4 independent Python scripts for data quality control of Excel-based geochemical/geological datasets. All scripts run independently.
 All functions are designed for:(1)Non‑numeric cell detection; (2)Null value checking (with row location); (3)Full‑column min/max statistics;(4)Column value frequency counting.
+
 2. File List & Functions
 
 | Script Name | Function | Output File |
