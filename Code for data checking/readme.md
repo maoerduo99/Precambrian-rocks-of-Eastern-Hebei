@@ -1,7 +1,7 @@
 1. Overview
 
 This toolkit contains 4 independent Python scripts for data quality control of Excel-based geochemical/geological datasets. All scripts run independently.
-All functions are designed for:(1)Non‑numeric cell detection; (2)Null value checking (with row location); (3)Full‑column min/max statistics;(4)Column value frequency counting;(5)geochemical quality control, applying Tukey 1.5×IQR rule.
+All functions are designed for:(1)Non‑numeric cell detection; (2)Null value checking (with row location); (3)Full‑column min/max statistics;(4)Column value frequency counting;(5)Geochemical quality control, applying Tukey 1.5×IQR rule;(6)Reference checking.
 
 2. File List & Functions
 
@@ -12,3 +12,4 @@ All functions are designed for:(1)Non‑numeric cell detection; (2)Null value ch
 | column_min_max_stats.py | Calculate min/max values for all columns | Min_Max_Statistics.xlsx |
 | column_value_frequency.py | Count value frequency in specified column range | Value_Frequency_Result.xlsx |
 | major_check.py | geochemical quality control, applying Tukey 1.5×IQR rule | qc_output_flagged.xlsx<br>qc_outlier_summary.xlsx |
+| reference_check.py | only validation script for dataset provenance consistency | reference_validation_report.xlsx |
