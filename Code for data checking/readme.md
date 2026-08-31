@@ -11,3 +11,4 @@ All functions are designed for:(1)Non‑numeric cell detection; (2)Null value ch
 | check_null_values.py | Count null values and locate exact row numbers of nulls | Null_Check_Report.xlsx<br>Null_Value_Locations.xlsx |
 | column_min_max_stats.py | Calculate min/max values for all columns | Min_Max_Statistics.xlsx |
 | column_value_frequency.py | Count value frequency in specified column range | Value_Frequency_Result.xlsx |
+| major_check.py | geochemical quality control, applying Tukey 1.5×IQR rule | qc_output_flagged.xlsx |
